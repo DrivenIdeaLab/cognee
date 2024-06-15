@@ -1,0 +1,888 @@
+repo_name: DrivenIdeaLab/cognee
+report_id: 25ee279b54bbc30cb7a20d33d4214e02
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-15T17:55:53+00:00'
+requested_by: Vasilije1990
+provider: github
+branch: main
+detected_tools_count: 59
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/cognitive_memory/setup.py
+  detection_source: iterations/level_3/cognitive_memory/setup.py
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-05 15:15:45.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/example_data/base_sql_for_superset.sql
+  detection_source: iterations/level_3/example_data/base_sql_for_superset.sql
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-31 10:45:22.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.98.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: Neo4j
+  description: The world’s leading Graph Database
+  website_url: http://www.neo4j.com/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Graph Databases
+  image_url: https://img.stackshare.io/service/1482/FbkjM42a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-11-17 19:44:44.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-02-20 08:29:09.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee
+  detection_source: Repo Metadata
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/docker-compose.yml
+  detection_source: iterations/level_2/docker-compose.yml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/.github/workflows/cd.yaml
+  detection_source: ".github/workflows/cd.yaml"
+  last_updated_by: Vasilije
+  last_updated_on: 2023-12-16 14:25:32.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-11-13 22:17:25.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/cognitive_memory/setup.py
+  detection_source: iterations/level_3/cognitive_memory/setup.py
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-05 15:15:45.000000000 Z
+- name: Replicate
+  description: Run machine learning models with a few lines of code
+  website_url: https://replicate.com/
+  version: 0.8.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning as a Service
+  image_url: https://img.stackshare.io/service/21709/default_e8df7b9f7533c3ea041cf8ded59b2c12e7466b67.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee
+  detection_source: Repo Metadata
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/pyproject.toml
+  detection_source: iterations/level_3/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-04 19:52:35.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.271
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-23 17:59:12.000000000 Z
+- name: LlamaIndex
+  description: A central interface to connect your LLMs with external data
+  website_url: https://gpt-index.readthedocs.io/en/latest/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/pyproject.toml
+  detection_source: iterations/level_3/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-05 15:15:45.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 2.2.2
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: Sentence Transformers
+  description: Multilingual sentence, paragraph, and image embeddings
+  website_url: https://www.sbert.net/
+  version: 2.2.2
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/109224/default_1167b8b1fc15f3526701cde5a789734ae865925d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_3/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-30 14:59:37.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee
+  detection_source: Repo Metadata
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.271
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-23 17:59:12.000000000 Z
+  vulnerabilities:
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-39659
+    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.325
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36281
+    cve_url: https://github.com/advisories/GHSA-7gfq-f96f-g85j
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.312
+  - name: Langchain vulnerable to arbitrary code execution via the evaluate function
+      in the numexpr library
+    cve_id: CVE-2023-39631
+    cve_url: https://github.com/advisories/GHSA-f73w-4m7g-ch9x
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.308
+  - name: Langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-32786
+    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.329
+  - name: LangChain Server Side Request Forgery vulnerability
+    cve_id: CVE-2023-46229
+    cve_url: https://github.com/advisories/GHSA-655w-fm8m-m478
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.317
+  - name: Server-Side Request Forgery in langchain
+    cve_id: CVE-2024-3095
+    cve_url: https://github.com/advisories/GHSA-q25c-c977-4cmh
+    detected_date: Jun 7
+    severity: moderate
+    first_patched:
+  - name: langchain vulnerable to path traversal
+    cve_id: CVE-2024-3571
+    cve_url: https://github.com/advisories/GHSA-rgp8-pm28-3759
+    detected_date: Apr 17
+    severity: moderate
+    first_patched: 0.0.353
+  - name: Denial of service in langchain
+    cve_id: CVE-2024-2965
+    cve_url: https://github.com/advisories/GHSA-3hjh-jh2h-vrg6
+    detected_date: Jun 7
+    severity: moderate
+    first_patched:
+  - name: LangChain directory traversal vulnerability
+    cve_id: CVE-2024-28088
+    cve_url: https://github.com/advisories/GHSA-h59x-p739-982c
+    detected_date: Mar 7
+    severity: low
+    first_patched: 0.0.339
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+  vulnerabilities:
+  - name: Request smuggling leading to endpoint restriction bypass in Gunicorn
+    cve_id: CVE-2024-1135
+    cve_url: https://github.com/advisories/GHSA-w3h3-4rj7-4ph4
+    detected_date: Apr 16
+    severity: high
+    first_patched: 22.0.0
+- name: python-jose
+  description: JOSE implementation in Python
+  package_url: https://pypi.org/project/python-jose
+  version: 3.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20096/default_5297f13e5d732665caff8f16d9bfcd71481f98b6.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+  vulnerabilities:
+  - name: python-jose algorithm confusion with OpenSSH ECDSA keys
+    cve_id: CVE-2024-33663
+    cve_url: https://github.com/advisories/GHSA-6c5p-j8vq-pqhj
+    detected_date: Apr 27
+    severity: high
+    first_patched:
+  - name: python-jose denial of service via compressed JWE content
+    cve_id: CVE-2024-33664
+    cve_url: https://github.com/advisories/GHSA-cjwg-qfpm-7377
+    detected_date: Apr 27
+    severity: moderate
+    first_patched:
+- name: dash
+  description: A Python framework for building reactive web-apps
+  package_url: https://pypi.org/project/dash
+  version: 2.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20186/default_dd3b312e8cc6182284a1b62b29d8f5d203c32bda.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/poetry.lock
+  detection_source: iterations/level_3/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-15 15:52:29.000000000 Z
+  vulnerabilities:
+  - name: Dash apps vulnerable to Cross-site Scripting
+    cve_id: CVE-2024-21485
+    cve_url: https://github.com/advisories/GHSA-547x-748v-vp6p
+    detected_date: Feb 3
+    severity: moderate
+    first_patched: 2.15.0
+- name: aiofiles
+  description: File support for asyncio
+  package_url: https://pypi.org/project/aiofiles
+  version: 23.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20183/default_3d320a0aa731f16ceb0e7b6999ca7f7cd784aee2.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Boris Arzentar
+  last_updated_on: 2024-03-12 12:42:51.000000000 Z
+- name: aiosqlite
+  description: Asyncio bridge to the standard sqlite3 module
+  package_url: https://pypi.org/project/aiosqlite
+  version: 0.20.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Boris Arzentar
+  last_updated_on: 2024-02-25 22:56:50.000000000 Z
+- name: asyncpg
+  description: An asyncio PostgreSQL driver
+  package_url: https://pypi.org/project/asyncpg
+  version: 0.28.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20348/default_af2b356cd035e5e1c010a45df43c17b898af8c44.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/poetry.lock
+  detection_source: iterations/level_3/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-12 11:18:26.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  version: 1.28.60
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: coverage
+  description: Code coverage measurement for Python
+  package_url: https://pypi.org/project/coverage
+  version: 7.4.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19904/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-03-07 13:06:19.000000000 Z
+- name: fastjsonschema
+  description: Fastest Python implementation of JSON schema
+  package_url: https://pypi.org/project/fastjsonschema
+  version: 2.18.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: googlemaps
+  description: Python client library for Google Maps Platform
+  package_url: https://pypi.org/project/googlemaps
+  version: 4.10.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: graphviz
+  description: Simple Python interface for Graphviz
+  package_url: https://pypi.org/project/graphviz
+  version: 0.20.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19981/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Boris Arzentar
+  last_updated_on: 2024-03-12 19:55:31.000000000 Z
+- name: greenlet
+  description: Lightweight in-process concurrent programming
+  package_url: https://pypi.org/project/greenlet
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20137/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Boris Arzentar
+  last_updated_on: 2024-02-25 22:56:50.000000000 Z
+- name: humanize
+  description: Python humanize utilities
+  package_url: https://pypi.org/project/humanize
+  version: 4.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20018/default_8ec0d1f9ddf0a2b7aab003c2af38b977b2f2b1e9.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-23 14:25:15.000000000 Z
+- name: langdetect
+  description: Language detection library ported from Google's language-detection
+  package_url: https://pypi.org/project/langdetect
+  version: 1.0.9
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-12-27 22:56:07.000000000 Z
+- name: mkdocs-material
+  description: A Material Design theme for MkDocs
+  package_url: https://pypi.org/project/mkdocs-material
+  version: 9.5.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-03-13 10:00:48.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-02-27 09:19:37.000000000 Z
+- name: networkx
+  description: Python package for creating and manipulating graphs and networks
+  package_url: https://pypi.org/project/networkx
+  version: '3.1'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19877/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-11-14 17:26:58.000000000 Z
+- name: nltk
+  description: Natural Language Toolkit
+  package_url: https://pypi.org/project/nltk
+  version: 3.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20023/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: notebook
+  description: A web-based notebook environment for interactive computing
+  package_url: https://pypi.org/project/notebook
+  version: 7.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20024/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Boris Arzentar
+  last_updated_on: 2024-03-12 12:42:51.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: overrides
+  description: A decorator to automatically detect mismatch when overriding a method
+  package_url: https://pypi.org/project/overrides
+  version: 7.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-03-07 13:06:19.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 2.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-02-27 08:53:38.000000000 Z
+- name: pdf2image
+  description: A wrapper around the pdftoppm and pdftocairo command line tools to
+    convert PDF to a PIL Image list
+  package_url: https://pypi.org/project/pdf2image
+  version: 1.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/poetry.lock
+  detection_source: iterations/level_3/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-30 23:29:45.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  version: 4.8.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2
+  version: 2.9.9
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_3/poetry.lock
+  detection_source: iterations/level_3/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-04 19:52:35.000000000 Z
+- name: pyarrow
+  description: Python library for Apache Arrow
+  package_url: https://pypi.org/project/pyarrow
+  version: 15.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20366/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-02-27 08:03:04.000000000 Z
+- name: pylint
+  description: Python code static checker
+  package_url: https://pypi.org/project/pylint
+  version: 3.1.0
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19980/default_a82f3cd9981909e38152c6f66eefe94bed2aa5ca.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-02-15 17:01:12.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-03-07 13:06:19.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.21.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2024-03-07 13:06:19.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: redis
+  description: Python client for Redis key-value store
+  package_url: https://pypi.org/project/redis
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19855/default_f812320c62a72187e593516984ac4eb92fb43040.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: scikit-learn
+  description: A set of python modules for machine learning and data mining
+  package_url: https://pypi.org/project/scikit-learn
+  version: 1.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Boris Arzentar
+  last_updated_on: 2024-03-12 12:42:51.000000000 Z
+- name: selenium
+  description: Python bindings for Selenium
+  package_url: https://pypi.org/project/selenium
+  version: 4.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19869/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: spacy
+  description: Industrial-strength Natural Language Processing
+  package_url: https://pypi.org/project/spacy
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20263/default_1842575018db691e6f93d8a9a1aa65cdc2a55c20.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/project/tenacity
+  version: 8.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Boris Arzentar
+  last_updated_on: 2024-03-12 19:55:31.000000000 Z
+- name: torch
+  description: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  package_url: https://pypi.org/project/torch
+  version: 2.1.0
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20038/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_3/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-10-30 14:59:37.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.22.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/DrivenIdeaLab/cognee/blob/main/iterations/level_2/poetry.lock
+  detection_source: iterations/level_2/pyproject.toml
+  last_updated_by: Vasilije
+  last_updated_on: 2023-08-17 15:30:40.000000000 Z
